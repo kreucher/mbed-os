@@ -32,9 +32,9 @@
 #define MBED_CMSIS_NVIC_H
 
 // CORE: 16 vectors (= 64 bytes from 0x00 to 0x3F)
-// MCU Peripherals: 43 vectors (= 172 bytes from 0x40 to 0xEB)
-// Total:  236 bytes to be reserved in RAM (see scatter file)
-#define NVIC_NUM_VECTORS        (16 + 43)
+// MCU Peripherals: 60 vectors (= 240 bytes from 0x40 to 0x12F)
+// Total:  304 bytes to be reserved in RAM (see scatter file)
+#define NVIC_NUM_VECTORS        (16 + 60)
 #define NVIC_RAM_VECTOR_ADDRESS 0x20000000    // Vectors positioned at start of RAM
 
 #endif

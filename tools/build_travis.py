@@ -44,6 +44,7 @@ build_list = [
         { "target": "NUCLEO_F072RB",     "toolchains": "GCC_ARM", "libs": ["dsp"] },
         { "target": "NUCLEO_F091RC",     "toolchains": "GCC_ARM", "libs": ["dsp"] },
         { "target": "NUCLEO_F103RB",     "toolchains": "GCC_ARM" },
+        { "target": "GENERIC_F103RE",     "toolchains": "GCC_ARM" },
         { "target": "NUCLEO_F207ZG",     "toolchains": "GCC_ARM", "libs": ["dsp", "usb"] },
         { "target": "NUCLEO_F302R8",     "toolchains": "GCC_ARM", "libs": ["dsp"] },
         { "target": "NUCLEO_F303K8",     "toolchains": "GCC_ARM", "libs": ["dsp"] },
